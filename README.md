@@ -1,11 +1,11 @@
-Big Mart Sales Forecasting System
+Big Mart Sales Forecasting System<br>
 🚀 Project Overview
-This project provides a robust machine learning pipeline for forecasting monthly sales for over 8,500 product–outlet pairs using real-world data from the Big Mart Sales Kaggle competition. Over 80 hours of work went into data cleaning, modeling, and visualization to enable actionable business insights and reliable, production-ready predictions.
+This project provides a robust machine learning pipeline for forecasting monthly sales for over 8,500 product–outlet pairs using real-world data from the Big Mart Sales Kaggle competition. Over 80 hours of work went into data cleaning, modeling, and visualization to enable actionable business insights and reliable, production-ready predictions.<br>
 
-📈 Key Achievements
-Data scale: Modeled 8,523 sales records from 1,559 products across 10 unique outlets.
+📈 Key Achievements<br>
+Data scale: Modeled 8,523 sales records from 1,559 products across 10 unique outlets.<br>
 
-Performance: Achieved RMSE as low as 1,051, MAPE down to 57.9%, and R² up to 0.58 on validation, benchmarking within Kaggle’s top ~20% using main features.
+Performance: Achieved RMSE as low as 1,051, MAPE down to 57.9%, and R² up to 0.58 on validation, benchmarking within Kaggle’s top ~20% using main features.<br>
 
 Feature Engineering: Encoded 7 categorical columns, 3 numericals, imputed 145 missing item weights, and standardized 5 inconsistent fat categories.
 
