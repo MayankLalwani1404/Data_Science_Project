@@ -11,7 +11,7 @@ Feature Engineering: Encoded 7 categorical columns, 3 numericals, imputed 145 mi
 
 Visualization: Generated 8+ high-impact plots (Actual vs. Predicted Sales, Feature Importance, Residual Analysis, Model Performance Comparison).
 
-Business Impact: Informed inventory, pricing, and outlet targeting decisions through model-driven recommendation.
+Business Impact: Informed inventory, pricing, and outlet targeting decisions through model-driven recommendations.
 
 ⚙️ Model Size & Platform Adaptation
 Challenge: Model uploads were limited to files ≤5MB, while a full-feature Random Forest (150+ trees, deep splits) reached 194MB.
@@ -29,7 +29,7 @@ Transparency: Full code and both model artifacts are provided; users may train/g
 python
 # See data_cleane.py for cleaning, imputation, and outlier capping.
 2. Model Training
-python
+Python
 # Train either the small or full Random Forest models as needed.
 # See training scripts for adjustable parameters and notes on file sizes.
 3. Visualization
@@ -47,7 +47,7 @@ rf_model = joblib.load('bigmart_rf_model_full.joblib')
 
 # Predict
 predictions = rf_model.predict(X_test)
-If platform size constraint exists (e.g., for upload/submission), use the smaller model:
+If a platform size constraint exists (e.g., for upload/submission), use the smaller model:
 
 python
 rf_model_small = joblib.load('rf_small.pkl')  # or 'rf_small.joblib'
